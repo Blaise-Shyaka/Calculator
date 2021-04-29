@@ -1,5 +1,8 @@
 {
   "name": "calculator",
+  "engines": {
+    "node": "12.21.0"
+  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {
