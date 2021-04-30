@@ -1,7 +1,8 @@
 {
   "name": "calculator",
   "engines": {
-    "node": "14.16.1"
+    "node": "14.16.1",
+    "npm": "7.11.2"
   },
   "version": "0.1.0",
   "private": true,
