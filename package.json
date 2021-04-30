@@ -1,13 +1,8 @@
 {
   "name": "calculator",
-  "engines": {
-    "node": "12.21.0",
-    "npm": "7.6.3"
-  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@babel/core": "^7.13.16",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -44,8 +39,6 @@
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.13.14",
-    "@babel/plugin-transform-unicode-regex": "^7.12.13",
-    "babel-eslint": "^10.1.0",
     "eslint": "^7.25.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-plugin-import": "^2.22.1",
