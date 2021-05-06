@@ -10,8 +10,8 @@ const calculate = (data, buttonName) => {
 
   // Return the percentage of the recently typed number
   if (buttonName === '%') {
-    if (!next) return { total: (total / 100).toString, next, operation };
-    if (!total) return { total, next: (next / 100).toString, operation };
+    if (!next) return { total: operate(total, next, buttonName).toString(), next, operation };
+    if (!total) return { total, next: operate(next, total, buttonName).toString(), operation };
   }
 
   // Add a dot at the end of the recently typed number

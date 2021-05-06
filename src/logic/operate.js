@@ -1,14 +1,30 @@
 import Big from 'big.js';
 
-// eslint-disable-next-line consistent-return
 const operate = (numberOne, numberTwo, operation) => {
   const operand1 = Big(numberOne);
   const operand2 = Big(numberTwo);
+  let result = 0;
 
-  if (operation === '-') return operand1.minus(operand2);
-  if (operation === '+') return operand1.plus(operand2);
-  if (operation === 'X') return operand1.times(operand2);
-  if (operation === '÷') return operand1.div(operand2);
+  switch (operation) {
+    case '-':
+      result = operand1.minus(operand2);
+      break;
+    case '+':
+      result = operand1.plus(operand2);
+      break;
+    case 'X':
+      result = operand1.times(operand2);
+      break;
+    case '÷':
+      result = operand1.div(operand2);
+      break;
+    case '%':
+      result = operand1.div(100);
+      break;
+    default:
+      break;
+  }
+  return result;
 };
 
 export default operate;
