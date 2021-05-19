@@ -25,3 +25,12 @@ code {
     'Courier New',
     monospace;
 }
+
+.align {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.italics {
+  font-style: italic;
+}
