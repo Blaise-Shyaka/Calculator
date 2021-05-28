@@ -11,25 +11,25 @@ function ButtonPanel(props) {
         <Button wide={false} name="AC" clickHandler={clickHandler} />
         <Button wide={false} name="+/-" clickHandler={clickHandler} />
         <Button wide={false} name="%" clickHandler={clickHandler} />
-        <Button color="orange" name="÷" clickHandler={clickHandler} />
+        <Button wide={false} color="orange" name="÷" clickHandler={clickHandler} />
       </div>
       <div className={buttonPanelStyles.buttonGroups}>
         <Button wide={false} name="7" clickHandler={clickHandler} />
         <Button wide={false} name="8" clickHandler={clickHandler} />
         <Button wide={false} name="9" clickHandler={clickHandler} />
-        <Button color="orange" name="X" clickHandler={clickHandler} />
+        <Button wide={false} color="orange" name="X" clickHandler={clickHandler} />
       </div>
       <div className={buttonPanelStyles.buttonGroups}>
         <Button wide={false} name="4" clickHandler={clickHandler} />
         <Button wide={false} name="5" clickHandler={clickHandler} />
         <Button wide={false} name="6" clickHandler={clickHandler} />
-        <Button color="orange" name="-" clickHandler={clickHandler} />
+        <Button wide={false} color="orange" name="-" clickHandler={clickHandler} />
       </div>
       <div className={buttonPanelStyles.buttonGroups}>
         <Button wide={false} name="1" clickHandler={clickHandler} />
         <Button wide={false} name="2" clickHandler={clickHandler} />
         <Button wide={false} name="3" clickHandler={clickHandler} />
-        <Button color="orange" name="+" clickHandler={clickHandler} />
+        <Button wide={false} color="orange" name="+" clickHandler={clickHandler} />
       </div>
       <div className={buttonPanelStyles.buttonGroups}>
         <Button wide name="0" clickHandler={clickHandler} />
