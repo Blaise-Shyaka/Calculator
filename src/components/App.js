@@ -1,36 +1,18 @@
-import { Component } from 'react';
-import Display from './Display';
-import ButtonPanel from './ButtonPanel';
-// eslint-disable-next-line no-unused-vars
-import calculate from '../logic/calculate';
+import { Route, Switch } from 'react-router-dom';
+import Home from './Home';
+import Quote from './Quote';
+import Calculator from './Calculator';
+import Navigation from './Navigation';
 
-class App extends Component {
-  constructor() {
-    super();
-    this.state = {
-      total: null,
-      next: null,
-      operation: null,
-    };
-
-    this.handleClick = this.handleClick.bind(this);
-  }
-
-  handleClick(buttonName) {
-    const result = calculate(this.state, buttonName);
-    this.setState(result);
-  }
-
-  render() {
-    const { total, next } = this.state;
-    const result = next ?? total;
-    return (
-      <>
-        <Display result={result ?? Number(result).toString()} />
-        <ButtonPanel clickHandler={this.handleClick} />
-      </>
-    );
-  }
+export default function App() {
+  return (
+    <div>
+      <Navigation />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/calculator" component={Calculator} />
+        <Route exact path="/quotes" component={Quote} />
+      </Switch>
+    </div>
+  );
 }
-
-export default App;

@@ -1,0 +1,20 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0.5rem auto;
+}
+
+.logo {
+  width: 30%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.links {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+}

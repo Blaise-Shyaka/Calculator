@@ -1,0 +1,393 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component Should render the Calculator page correctly 1`] = `
+<div>
+  <div>
+    <p>
+      0
+    </p>
+  </div>
+  <div>
+    <div>
+      <button
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "",
+            "border": "1px solid #ccc",
+            "fontWeight": 600,
+            "height": "100%",
+            "outline": "none",
+            "width": "25%",
+          }
+        }
+        type="button"
+      >
+        AC
+      </button>
+      <button
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "",
+            "border": "1px solid #ccc",
+            "fontWeight": 600,
+            "height": "100%",
+            "outline": "none",
+            "width": "25%",
+          }
+        }
+        type="button"
+      >
+        +/-
+      </button>
+      <button
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "",
+            "border": "1px solid #ccc",
+            "fontWeight": 600,
+            "height": "100%",
+            "outline": "none",
+            "width": "25%",
+          }
+        }
+        type="button"
+      >
+        %
+      </button>
+      <button
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "orange",
+            "border": "1px solid #ccc",
+            "fontWeight": 600,
+            "height": "100%",
+            "outline": "none",
+            "width": "25%",
+          }
+        }
+        type="button"
+      >
+        ÷
+      </button>
+    </div>
+    <div>
+      <button
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "",
+            "border": "1px solid #ccc",
+            "fontWeight": 600,
+            "height": "100%",
+            "outline": "none",
+            "width": "25%",
+          }
+        }
+        type="button"
+      >
+        7
+      </button>
+      <button
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "",
+            "border": "1px solid #ccc",
+            "fontWeight": 600,
+            "height": "100%",
+            "outline": "none",
+            "width": "25%",
+          }
+        }
+        type="button"
+      >
+        8
+      </button>
+      <button
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "",
+            "border": "1px solid #ccc",
+            "fontWeight": 600,
+            "height": "100%",
+            "outline": "none",
+            "width": "25%",
+          }
+        }
+        type="button"
+      >
+        9
+      </button>
+      <button
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "orange",
+            "border": "1px solid #ccc",
+            "fontWeight": 600,
+            "height": "100%",
+            "outline": "none",
+            "width": "25%",
+          }
+        }
+        type="button"
+      >
+        X
+      </button>
+    </div>
+    <div>
+      <button
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "",
+            "border": "1px solid #ccc",
+            "fontWeight": 600,
+            "height": "100%",
+            "outline": "none",
+            "width": "25%",
+          }
+        }
+        type="button"
+      >
+        4
+      </button>
+      <button
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "",
+            "border": "1px solid #ccc",
+            "fontWeight": 600,
+            "height": "100%",
+            "outline": "none",
+            "width": "25%",
+          }
+        }
+        type="button"
+      >
+        5
+      </button>
+      <button
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "",
+            "border": "1px solid #ccc",
+            "fontWeight": 600,
+            "height": "100%",
+            "outline": "none",
+            "width": "25%",
+          }
+        }
+        type="button"
+      >
+        6
+      </button>
+      <button
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "orange",
+            "border": "1px solid #ccc",
+            "fontWeight": 600,
+            "height": "100%",
+            "outline": "none",
+            "width": "25%",
+          }
+        }
+        type="button"
+      >
+        -
+      </button>
+    </div>
+    <div>
+      <button
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "",
+            "border": "1px solid #ccc",
+            "fontWeight": 600,
+            "height": "100%",
+            "outline": "none",
+            "width": "25%",
+          }
+        }
+        type="button"
+      >
+        1
+      </button>
+      <button
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "",
+            "border": "1px solid #ccc",
+            "fontWeight": 600,
+            "height": "100%",
+            "outline": "none",
+            "width": "25%",
+          }
+        }
+        type="button"
+      >
+        2
+      </button>
+      <button
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "",
+            "border": "1px solid #ccc",
+            "fontWeight": 600,
+            "height": "100%",
+            "outline": "none",
+            "width": "25%",
+          }
+        }
+        type="button"
+      >
+        3
+      </button>
+      <button
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "orange",
+            "border": "1px solid #ccc",
+            "fontWeight": 600,
+            "height": "100%",
+            "outline": "none",
+            "width": "25%",
+          }
+        }
+        type="button"
+      >
+        +
+      </button>
+    </div>
+    <div>
+      <button
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "",
+            "border": "1px solid #ccc",
+            "fontWeight": 600,
+            "height": "100%",
+            "outline": "none",
+            "width": "50%",
+          }
+        }
+        type="button"
+      >
+        0
+      </button>
+      <button
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "",
+            "border": "1px solid #ccc",
+            "fontWeight": 600,
+            "height": "100%",
+            "outline": "none",
+            "width": "25%",
+          }
+        }
+        type="button"
+      >
+        .
+      </button>
+      <button
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "orange",
+            "border": "1px solid #ccc",
+            "fontWeight": 600,
+            "height": "100%",
+            "outline": "none",
+            "width": "25%",
+          }
+        }
+        type="button"
+      >
+        =
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`App Component Should render the Home page correctly 1`] = `
+<div>
+  <div>
+    <header>
+      <h1>
+        Where Math Magic Happens
+      </h1>
+    </header>
+    <main>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui o!cia deserunt mollit anim id est laborum. Ipsu
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui o!cia deserunt mollit anim id est laborum. Ipsu
+      </p>
+    </main>
+  </div>
+  <aside>
+    <img
+      alt="Magician Dealing with Numbers"
+      src="magician.png"
+    />
+  </aside>
+</div>
+`;
+
+exports[`App Component Should render the Quotes page correctly 1`] = `
+<div
+  className="align"
+>
+  <h1>
+    Interesting Maths Quotes
+  </h1>
+  <blockquote
+    className="italics"
+  >
+    Mathematics is the most beautiful and most powerful creation of the human spirit.
+  </blockquote>
+  <blockquote
+    className="italics"
+  >
+    Mathematics is the art of giving the same name to different things.
+  </blockquote>
+  <blockquote
+    className="italics"
+  >
+    The beauty of mathematics only shows itself to more patient followers.
+  </blockquote>
+  <blockquote
+    className="italics"
+  >
+    To solve math problems, you need to know the basic mathematics before you can start applying it.
+  </blockquote>
+  <blockquote
+    className="italics"
+  >
+    Mathematics knows no races or geographic boundaries; for mathematics, the cultural world is one country.
+  </blockquote>
+  <blockquote
+    className="italics"
+  >
+    Obvious is the most dangerous word in mathematics.
+  </blockquote>
+</div>
+`;

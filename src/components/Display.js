@@ -1,8 +1,9 @@
 import PropTypes from 'prop-types';
+import * as styles from '../styles/display.module.css';
 
 function Display({ result }) {
   return (
-    <div>
+    <div className={styles.display}>
       <p>{result}</p>
     </div>
   );
