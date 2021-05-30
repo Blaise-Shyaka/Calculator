@@ -1,6 +1,10 @@
 import { render, fireEvent } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
+import TestRenderer from 'react-test-renderer';
 import App from '../App';
+import Home from '../Home';
+import Calculator from '../Calculator';
+import Quote from '../Quote';
 
 describe('App Component', () => {
   const appComponent = (
@@ -37,5 +41,20 @@ describe('App Component', () => {
     const btn = getByText('Quotes');
     fireEvent.click(btn);
     getByText('Interesting Maths Quotes');
+  });
+
+  it('Should render the Home page correctly', () => {
+    const tree = TestRenderer.create(<Home />);
+    expect(tree.toJSON()).toMatchSnapshot();
+  });
+
+  it('Should render the Calculator page correctly', () => {
+    const tree = TestRenderer.create(<Calculator />);
+    expect(tree.toJSON()).toMatchSnapshot();
+  });
+
+  it('Should render the Quotes page correctly', () => {
+    const tree = TestRenderer.create(<Quote />);
+    expect(tree.toJSON()).toMatchSnapshot();
   });
 });
