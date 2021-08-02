@@ -9,7 +9,7 @@ This project is a calculator web application built with React JS
 
 ## Live Demo
 
-[Live demo link](https://calculator-app-21.herokuapp.com/)
+[Live demo link](https://sad-aryabhata-475222.netlify.app/)
 
 ## Getting Started
 ### Requirements
